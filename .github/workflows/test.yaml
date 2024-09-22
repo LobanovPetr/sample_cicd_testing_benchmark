@@ -13,6 +13,7 @@ jobs:
           path: |
             build/summator
             build/tests
+            build/g_benchmark
 
   tests:
     needs: build
@@ -32,3 +33,11 @@ jobs:
           name: binaries
       - run: chmod +x summator && ./summator 2 7
 
+  benchmark:
+    needs: build
+    runs-on: ubunta-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: binaries
+      - run: chmod +x g_benchmark && ./g_benchmark
