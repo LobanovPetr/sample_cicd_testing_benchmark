@@ -1,6 +1,9 @@
 name: Doxygen site
 on: push
 
+permissions:
+  contents: write
+  pages: write
 
 jobs:
   build:
