@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['library_20sum_21',['Library sum',['../index.html',1,'']]]
+  ['library_20sum_7',['Library sum',['../index.html',1,'']]]
 ];

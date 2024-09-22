@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['benchmark_16',['BENCHMARK',['../benchmark_8cpp.html#aa4d160081c0ccfc36027581683915d60',1,'benchmark.cpp']]],
-  ['benchmark_5fmain_17',['BENCHMARK_MAIN',['../benchmark_8cpp.html#a5851750faa9cfec10f7cad1f3b89697e',1,'benchmark.cpp']]]
+  ['sum_6',['sum',['../sum_8h.html#a71d09617348bdccca2e0389f933be8c9',1,'sum(double, double):&#160;sum.cpp'],['../sum_8cpp.html#aa696b61cebd54eea6ae72f2da02ed1d5',1,'sum(double a, double b):&#160;sum.cpp']]]
 ];
