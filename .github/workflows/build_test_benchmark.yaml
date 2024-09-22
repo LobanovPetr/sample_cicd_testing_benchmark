@@ -41,14 +41,3 @@ jobs:
         with:
           name: binaries
       - run: chmod +x g_benchmark && ./g_benchmark
-  docs:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - run: sudo apt-get install -y doxygen
-      - run: doxygen docs/Doxyfile
-      - uses: actions/upload-artifact@v4
-        with:
-          name: docs
-          path: html
