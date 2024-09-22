@@ -11,9 +11,9 @@ jobs:
         with:
           name: binaries
           path: |
-            build/main/summator
-            build/test/tests
-            build/benchmark/g_benchmark
+            build/bin/summator
+            build/bin/tests
+            build/bin/g_benchmark
 
   tests:
     needs: build
