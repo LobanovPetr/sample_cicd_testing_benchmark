@@ -1,15 +1,15 @@
 /**
  * @mainpage Library sum
- * Библиотека для сложения двух чисел
+ * Library for adding two numbers
  */
 
 
 
 /**
- * @brief Эта функция складывает два числа.
+ * @brief This functnion adds two numbers.
  * 
- * @param a Первое число.
- * @param b Второе число.
- * @return Сумма двух чисел.
+ * @param a First number.
+ * @param b Second number.
+ * @return Sum of two numbers.
  */
 double sum(double, double);
